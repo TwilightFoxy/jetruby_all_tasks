@@ -3,6 +3,10 @@ class FileHelper
     @filename = filename
   end
 
+  def filename
+    @filename
+  end
+
   def index
     File.open(@filename, "r") do |file|
       file.each_line { |line| puts line }
