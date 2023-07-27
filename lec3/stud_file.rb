@@ -1,4 +1,4 @@
-require_relative 'methods'
+require_relative 'file_helper'
 require 'set'
 
 file_helper = FileHelper.new('lec3/students.txt')
