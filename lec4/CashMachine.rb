@@ -4,6 +4,7 @@ class CashMachine
 
   def initialize
     @balance = read_balance
+    self.run
   end
 
   def read_balance
@@ -75,5 +76,5 @@ class CashMachine
   end
 end
 
-bank_account = CashMachine.new
-bank_account.run
+cash_machine = CashMachine.new
+# cash_machine.run
