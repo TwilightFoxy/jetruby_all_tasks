@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Банкомат</title>
+</head>
+<body>
+<h1>Банкомат</h1>
+<form action="/process" method="post">
+    <label for="command">Команда:</label>
+    <select name="command" id="command">
+        <option value="deposit">Депозит</option>
+        <option value="withdraw">Снятие</option>
+        <option value="balance">Баланс</option>
+    </select>
+    <br>
+    <label for="amount">Сумма:</label>
+    <input type="number" name="amount" id="amount" required>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
